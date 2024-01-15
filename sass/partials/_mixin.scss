@@ -1,0 +1,56 @@
+@mixin justify($content) {
+    display: flex;
+    justify-content: $content;
+    align-items: center;
+}
+
+@mixin box () {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 232px;
+}
+
+@mixin card () {
+    margin-left: 72px;
+    display: flex;
+    margin-top: 114px;
+    &:nth-child(3) {
+        margin-top: 76px;
+    }
+    .card-detail {
+        margin-left: 41px;
+        span {
+            font-size: 22px;
+            line-height: 25px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+            color: #202120;
+        }
+        h3 {
+            font-size: 17px;
+            line-height: 23px;
+            color: #1a1a1b;
+            font-weight: 800;
+            letter-spacing: 2px;
+            margin-bottom: 19px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #373737;
+            max-width: 640px;
+        }
+    }
+}
+
+@mixin images () {
+    vertical-align: bottom;
+    object-fit: cover;
+    filter: grayscale(1);
+    opacity: 79%;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,20 @@
+.reason {
+    @extend .recent-work;
+    background-color: $bg-light;
+    padding: 105px 0 108px;
+    .content {
+        max-width: 987px;
+    }
+    .card {
+        @include card ();
+        @media (max-width: 640px) {
+            margin-left: 0;
+        }
+        @media (max-width:480px) {
+            flex-direction: column;
+        }
+        .card-image {
+            margin: 0 auto;
+        }
+    }
+}

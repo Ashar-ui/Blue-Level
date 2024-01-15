@@ -1,0 +1,33 @@
+    .btf-4 {
+        background-color: $bg-dark;
+        padding: 92px 0 86px;
+        p {
+            font-size: 22px;
+            line-height: 25px;
+            color: #fff;
+            font-weight: 400;
+            margin-bottom: 40px;
+            text-align: center;
+            letter-spacing: 2px;
+            @media (max-width: 991px) {
+                font-size: 17px;
+                line-height: 23px;
+            }
+        }
+        a {
+            max-width: 201px;
+            min-height: 58px;
+            @include justify (center);
+            margin: 0 auto;
+            background-color: $blue;
+            color: #fff;
+            font-size: 22px;
+            line-height: 25px;
+            font-weight: 800;
+            transition: 0.3s all ease;
+            &:hover {
+                background-color: $i-clr;
+                color: #000;
+            }
+        }
+    }

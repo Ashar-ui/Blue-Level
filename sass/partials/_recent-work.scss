@@ -1,0 +1,22 @@
+.recent-work {
+    padding: 91px 0 108px;
+    background-color: $bg-3;
+    .content {
+        max-width: 280px;
+        margin: 0 auto;
+        text-align: center;
+        h3 {
+            font-weight: 800;
+            letter-spacing: 3px;
+            font-size: 17px;
+            line-height: 23px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 14px;
+            letter-spacing: 2px;
+            line-height: 20px;
+            margin-bottom: 17px;
+        }
+    }
+}

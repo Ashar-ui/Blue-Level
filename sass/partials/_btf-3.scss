@@ -1,0 +1,39 @@
+.btf-3 {
+    padding: 36px 0 32px;
+    background-color: $bg-light;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .one {
+            margin-bottom: 24px;
+            @media (max-width: 991px) {
+                width: 65%;
+            }
+        }
+        .two {
+            margin-bottom: 24px;
+            @media (max-width: 991px) {
+                width: 30%;
+            }
+        }
+        .three {
+            @media (max-width: 991px) {
+                max-width: 30%;
+            }
+        }
+        .four {
+            @media (max-width: 991px) {
+                max-width: 30%;
+            }
+        }
+        .five {
+            @media (max-width: 991px) {
+                max-width: 30%;
+            }
+        }
+        img {
+            @include images ();
+        }
+    }
+}
